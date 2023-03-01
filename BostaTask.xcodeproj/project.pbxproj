@@ -3,29 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212BEA5829AEDCE300D5ED95 /* uiAlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA5629AEDCE300D5ED95 /* uiAlbumsTableViewCell.swift */; };
+		212BEA5929AEDCE300D5ED95 /* uiAlbumsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212BEA5729AEDCE300D5ED95 /* uiAlbumsTableViewCell.xib */; };
+		212BEA5C29AEDD9100D5ED95 /* TableCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA5B29AEDD9100D5ED95 /* TableCell+Extension.swift */; };
+		212BEA6429AEE8DE00D5ED95 /* AlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA6329AEE8DE00D5ED95 /* AlbumsViewModel.swift */; };
+		212BEA6729AEE8F700D5ED95 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA6529AEE8F700D5ED95 /* AlbumsViewController.swift */; };
+		212BEA6829AEE8F700D5ED95 /* AlbumsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212BEA6629AEE8F700D5ED95 /* AlbumsViewController.xib */; };
+		212BEA6B29AEE90600D5ED95 /* AlbumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA6929AEE90600D5ED95 /* AlbumsCollectionViewCell.swift */; };
+		212BEA6C29AEE90600D5ED95 /* AlbumsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212BEA6A29AEE90600D5ED95 /* AlbumsCollectionViewCell.xib */; };
+		212BEA6E29AEEC2800D5ED95 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA6D29AEEC2800D5ED95 /* Model.swift */; };
+		212BEA7029AEF0AC00D5ED95 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA6F29AEF0AC00D5ED95 /* UIView.swift */; };
+		212BEA7229AEF29200D5ED95 /* CollectionCell+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BEA7129AEF29200D5ED95 /* CollectionCell+ Extension.swift */; };
+		21B98B1C29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B98B1A29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.swift */; };
+		21B98B1D29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B98B1B29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.xib */; };
+		21B98B1F29AFC8CF00D2BDF5 /* AlbumPhotoDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B98B1E29AFC8CF00D2BDF5 /* AlbumPhotoDetailsViewModel.swift */; };
+		21B98B2129AFCCE300D2BDF5 /* UIImage +  Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B98B2029AFCCE300D2BDF5 /* UIImage +  Extension.swift */; };
+		21B98B2329AFE7FD00D2BDF5 /* UIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B98B2229AFE7FD00D2BDF5 /* UIApplication + Extension.swift */; };
 		21F209A929AEA51D0016FA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209A829AEA51D0016FA38 /* AppDelegate.swift */; };
 		21F209AB29AEA51D0016FA38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209AA29AEA51D0016FA38 /* SceneDelegate.swift */; };
-		21F209AD29AEA51D0016FA38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209AC29AEA51D0016FA38 /* ViewController.swift */; };
-		21F209B029AEA51D0016FA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F209AE29AEA51D0016FA38 /* Main.storyboard */; };
 		21F209B329AEA51D0016FA38 /* BostaTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21F209B129AEA51D0016FA38 /* BostaTask.xcdatamodeld */; };
 		21F209B529AEA51F0016FA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F209B429AEA51F0016FA38 /* Assets.xcassets */; };
 		21F209B829AEA51F0016FA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F209B629AEA51F0016FA38 /* LaunchScreen.storyboard */; };
+		21F209C829AEA7DF0016FA38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209C629AEA7DF0016FA38 /* ProfileViewController.swift */; };
+		21F209C929AEA7DF0016FA38 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F209C729AEA7DF0016FA38 /* ProfileViewController.xib */; };
+		21F209DD29AEBA330016FA38 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209DC29AEBA330016FA38 /* NetworkClient.swift */; };
+		21F209DF29AEBEBF0016FA38 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209DE29AEBEBF0016FA38 /* ProfileViewModel.swift */; };
+		21F209E229AEC29E0016FA38 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209E129AEC29E0016FA38 /* ProfileModel.swift */; };
+		21F209E529AED2160016FA38 /* CommanVieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209E429AED2160016FA38 /* CommanVieModel.swift */; };
+		21F209E729AED2330016FA38 /* CommanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F209E629AED2330016FA38 /* CommanViewController.swift */; };
+		EFACF2F9017FD46853BF7005 /* Pods_BostaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D9D7F9DF475EB3EB093250 /* Pods_BostaTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212BEA5629AEDCE300D5ED95 /* uiAlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiAlbumsTableViewCell.swift; sourceTree = "<group>"; };
+		212BEA5729AEDCE300D5ED95 /* uiAlbumsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = uiAlbumsTableViewCell.xib; sourceTree = "<group>"; };
+		212BEA5B29AEDD9100D5ED95 /* TableCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableCell+Extension.swift"; sourceTree = "<group>"; };
+		212BEA6329AEE8DE00D5ED95 /* AlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewModel.swift; sourceTree = "<group>"; };
+		212BEA6529AEE8F700D5ED95 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		212BEA6629AEE8F700D5ED95 /* AlbumsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsViewController.xib; sourceTree = "<group>"; };
+		212BEA6929AEE90600D5ED95 /* AlbumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewCell.swift; sourceTree = "<group>"; };
+		212BEA6A29AEE90600D5ED95 /* AlbumsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsCollectionViewCell.xib; sourceTree = "<group>"; };
+		212BEA6D29AEEC2800D5ED95 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		212BEA6F29AEF0AC00D5ED95 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		212BEA7129AEF29200D5ED95 /* CollectionCell+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionCell+ Extension.swift"; sourceTree = "<group>"; };
+		21B98B1A29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		21B98B1B29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumPhotoDetailsViewController.xib; sourceTree = "<group>"; };
+		21B98B1E29AFC8CF00D2BDF5 /* AlbumPhotoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotoDetailsViewModel.swift; sourceTree = "<group>"; };
+		21B98B2029AFCCE300D2BDF5 /* UIImage +  Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage +  Extension.swift"; sourceTree = "<group>"; };
+		21B98B2229AFE7FD00D2BDF5 /* UIApplication + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication + Extension.swift"; sourceTree = "<group>"; };
 		21F209A529AEA51D0016FA38 /* BostaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BostaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F209A829AEA51D0016FA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F209AA29AEA51D0016FA38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21F209AC29AEA51D0016FA38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21F209AF29AEA51D0016FA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21F209B229AEA51D0016FA38 /* BostaTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BostaTask.xcdatamodel; sourceTree = "<group>"; };
 		21F209B429AEA51F0016FA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F209B729AEA51F0016FA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F209B929AEA51F0016FA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F209C629AEA7DF0016FA38 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		21F209C729AEA7DF0016FA38 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		21F209DC29AEBA330016FA38 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		21F209DE29AEBEBF0016FA38 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		21F209E129AEC29E0016FA38 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		21F209E429AED2160016FA38 /* CommanVieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanVieModel.swift; sourceTree = "<group>"; };
+		21F209E629AED2330016FA38 /* CommanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanViewController.swift; sourceTree = "<group>"; };
+		B80BF21F9FC4316828370F1D /* Pods-BostaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BostaTask.debug.xcconfig"; path = "Target Support Files/Pods-BostaTask/Pods-BostaTask.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9C6775A2FD189D1F412076 /* Pods-BostaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BostaTask.release.xcconfig"; path = "Target Support Files/Pods-BostaTask/Pods-BostaTask.release.xcconfig"; sourceTree = "<group>"; };
+		D7D9D7F9DF475EB3EB093250 /* Pods_BostaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BostaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +79,116 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFACF2F9017FD46853BF7005 /* Pods_BostaTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212BEA5529AEDCA900D5ED95 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA5629AEDCE300D5ED95 /* uiAlbumsTableViewCell.swift */,
+				212BEA5729AEDCE300D5ED95 /* uiAlbumsTableViewCell.xib */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		212BEA5D29AEE84000D5ED95 /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA6029AEE8B200D5ED95 /* Model */,
+				212BEA5E29AEE86500D5ED95 /* View */,
+				212BEA5F29AEE86C00D5ED95 /* ViewModel */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		212BEA5E29AEE86500D5ED95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA6229AEE8CC00D5ED95 /* SubView */,
+				212BEA6129AEE8BE00D5ED95 /* MainView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		212BEA5F29AEE86C00D5ED95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA6329AEE8DE00D5ED95 /* AlbumsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		212BEA6029AEE8B200D5ED95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA6D29AEEC2800D5ED95 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		212BEA6129AEE8BE00D5ED95 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA6529AEE8F700D5ED95 /* AlbumsViewController.swift */,
+				212BEA6629AEE8F700D5ED95 /* AlbumsViewController.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		212BEA6229AEE8CC00D5ED95 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA6929AEE90600D5ED95 /* AlbumsCollectionViewCell.swift */,
+				212BEA6A29AEE90600D5ED95 /* AlbumsCollectionViewCell.xib */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		21B98B1529AFC83500D2BDF5 /* AlbumPhotoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				21B98B1729AFC87000D2BDF5 /* View */,
+				21B98B1629AFC86C00D2BDF5 /* ViewModel */,
+			);
+			path = AlbumPhotoDetails;
+			sourceTree = "<group>";
+		};
+		21B98B1629AFC86C00D2BDF5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21B98B1E29AFC8CF00D2BDF5 /* AlbumPhotoDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21B98B1729AFC87000D2BDF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21B98B1829AFC88100D2BDF5 /* MainView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21B98B1829AFC88100D2BDF5 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				21B98B1A29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.swift */,
+				21B98B1B29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		21F2099C29AEA51D0016FA38 = {
 			isa = PBXGroup;
 			children = (
 				21F209A729AEA51D0016FA38 /* BostaTask */,
 				21F209A629AEA51D0016FA38 /* Products */,
+				D7781373F6E515C6EE345803 /* Pods */,
+				480026A112CD0FA19A1BF68E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +203,134 @@
 		21F209A729AEA51D0016FA38 /* BostaTask */ = {
 			isa = PBXGroup;
 			children = (
+				21F209E329AED1FF0016FA38 /* Comman */,
+				21F209CC29AEA9BA0016FA38 /*  Extension */,
+				21F209CB29AEA9B00016FA38 /* Constant */,
+				21F209CA29AEA99F0016FA38 /* APIManager */,
+				21F209BF29AEA7740016FA38 /* Modules */,
 				21F209A829AEA51D0016FA38 /* AppDelegate.swift */,
 				21F209AA29AEA51D0016FA38 /* SceneDelegate.swift */,
-				21F209AC29AEA51D0016FA38 /* ViewController.swift */,
-				21F209AE29AEA51D0016FA38 /* Main.storyboard */,
 				21F209B429AEA51F0016FA38 /* Assets.xcassets */,
 				21F209B629AEA51F0016FA38 /* LaunchScreen.storyboard */,
 				21F209B929AEA51F0016FA38 /* Info.plist */,
 				21F209B129AEA51D0016FA38 /* BostaTask.xcdatamodeld */,
 			);
 			path = BostaTask;
+			sourceTree = "<group>";
+		};
+		21F209BF29AEA7740016FA38 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				21B98B1529AFC83500D2BDF5 /* AlbumPhotoDetails */,
+				212BEA5D29AEE84000D5ED95 /* Albums */,
+				21F209C229AEA7970016FA38 /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		21F209C229AEA7970016FA38 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				21F209E029AEC2840016FA38 /* Model */,
+				21F209C329AEA79E0016FA38 /* view */,
+				21F209C429AEA7A60016FA38 /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		21F209C329AEA79E0016FA38 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA5529AEDCA900D5ED95 /* SubView */,
+				21F209C529AEA7C90016FA38 /* Main */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		21F209C429AEA7A60016FA38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21F209DE29AEBEBF0016FA38 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21F209C529AEA7C90016FA38 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				21F209C629AEA7DF0016FA38 /* ProfileViewController.swift */,
+				21F209C729AEA7DF0016FA38 /* ProfileViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		21F209CA29AEA99F0016FA38 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				21F209DA29AEB9D80016FA38 /* Core */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		21F209CB29AEA9B00016FA38 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		21F209CC29AEA9BA0016FA38 /*  Extension */ = {
+			isa = PBXGroup;
+			children = (
+				212BEA5B29AEDD9100D5ED95 /* TableCell+Extension.swift */,
+				212BEA6F29AEF0AC00D5ED95 /* UIView.swift */,
+				212BEA7129AEF29200D5ED95 /* CollectionCell+ Extension.swift */,
+				21B98B2029AFCCE300D2BDF5 /* UIImage +  Extension.swift */,
+				21B98B2229AFE7FD00D2BDF5 /* UIApplication + Extension.swift */,
+			);
+			path = " Extension";
+			sourceTree = "<group>";
+		};
+		21F209DA29AEB9D80016FA38 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				21F209DC29AEBA330016FA38 /* NetworkClient.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		21F209E029AEC2840016FA38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21F209E129AEC29E0016FA38 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21F209E329AED1FF0016FA38 /* Comman */ = {
+			isa = PBXGroup;
+			children = (
+				21F209E429AED2160016FA38 /* CommanVieModel.swift */,
+				21F209E629AED2330016FA38 /* CommanViewController.swift */,
+			);
+			path = Comman;
+			sourceTree = "<group>";
+		};
+		480026A112CD0FA19A1BF68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9D7F9DF475EB3EB093250 /* Pods_BostaTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7781373F6E515C6EE345803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B80BF21F9FC4316828370F1D /* Pods-BostaTask.debug.xcconfig */,
+				CB9C6775A2FD189D1F412076 /* Pods-BostaTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +340,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21F209BC29AEA51F0016FA38 /* Build configuration list for PBXNativeTarget "BostaTask" */;
 			buildPhases = (
+				0AEF23C9EA6E9B8AB88960EA /* [CP] Check Pods Manifest.lock */,
 				21F209A129AEA51D0016FA38 /* Sources */,
 				21F209A229AEA51D0016FA38 /* Frameworks */,
 				21F209A329AEA51D0016FA38 /* Resources */,
+				98CE2E568E748CE198921B1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BostaTask;
+			packageProductDependencies = (
+			);
 			productName = BostaTask;
 			productReference = 21F209A529AEA51D0016FA38 /* BostaTask.app */;
 			productType = "com.apple.product-type.application";
@@ -106,7 +373,7 @@
 				};
 			};
 			buildConfigurationList = 21F209A029AEA51D0016FA38 /* Build configuration list for PBXProject "BostaTask" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -114,6 +381,8 @@
 				Base,
 			);
 			mainGroup = 21F2099C29AEA51D0016FA38;
+			packageReferences = (
+			);
 			productRefGroup = 21F209A629AEA51D0016FA38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,37 +397,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212BEA6C29AEE90600D5ED95 /* AlbumsCollectionViewCell.xib in Resources */,
+				21F209C929AEA7DF0016FA38 /* ProfileViewController.xib in Resources */,
 				21F209B829AEA51F0016FA38 /* LaunchScreen.storyboard in Resources */,
 				21F209B529AEA51F0016FA38 /* Assets.xcassets in Resources */,
-				21F209B029AEA51D0016FA38 /* Main.storyboard in Resources */,
+				21B98B1D29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.xib in Resources */,
+				212BEA5929AEDCE300D5ED95 /* uiAlbumsTableViewCell.xib in Resources */,
+				212BEA6829AEE8F700D5ED95 /* AlbumsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEF23C9EA6E9B8AB88960EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BostaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98CE2E568E748CE198921B1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BostaTask/Pods-BostaTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BostaTask/Pods-BostaTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BostaTask/Pods-BostaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21F209A129AEA51D0016FA38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F209AD29AEA51D0016FA38 /* ViewController.swift in Sources */,
+				212BEA7029AEF0AC00D5ED95 /* UIView.swift in Sources */,
+				21F209DF29AEBEBF0016FA38 /* ProfileViewModel.swift in Sources */,
+				21F209E229AEC29E0016FA38 /* ProfileModel.swift in Sources */,
 				21F209A929AEA51D0016FA38 /* AppDelegate.swift in Sources */,
+				21F209DD29AEBA330016FA38 /* NetworkClient.swift in Sources */,
+				21F209E729AED2330016FA38 /* CommanViewController.swift in Sources */,
+				21B98B2129AFCCE300D2BDF5 /* UIImage +  Extension.swift in Sources */,
+				21B98B2329AFE7FD00D2BDF5 /* UIApplication + Extension.swift in Sources */,
+				212BEA7229AEF29200D5ED95 /* CollectionCell+ Extension.swift in Sources */,
 				21F209B329AEA51D0016FA38 /* BostaTask.xcdatamodeld in Sources */,
+				212BEA6B29AEE90600D5ED95 /* AlbumsCollectionViewCell.swift in Sources */,
+				21F209C829AEA7DF0016FA38 /* ProfileViewController.swift in Sources */,
+				21B98B1F29AFC8CF00D2BDF5 /* AlbumPhotoDetailsViewModel.swift in Sources */,
+				212BEA5C29AEDD9100D5ED95 /* TableCell+Extension.swift in Sources */,
+				212BEA6429AEE8DE00D5ED95 /* AlbumsViewModel.swift in Sources */,
+				212BEA6E29AEEC2800D5ED95 /* Model.swift in Sources */,
+				212BEA5829AEDCE300D5ED95 /* uiAlbumsTableViewCell.swift in Sources */,
+				21B98B1C29AFC8B100D2BDF5 /* AlbumPhotoDetailsViewController.swift in Sources */,
 				21F209AB29AEA51D0016FA38 /* SceneDelegate.swift in Sources */,
+				212BEA6729AEE8F700D5ED95 /* AlbumsViewController.swift in Sources */,
+				21F209E529AED2160016FA38 /* CommanVieModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		21F209AE29AEA51D0016FA38 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21F209AF29AEA51D0016FA38 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		21F209B629AEA51F0016FA38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +610,7 @@
 		};
 		21F209BD29AEA51F0016FA38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80BF21F9FC4316828370F1D /* Pods-BostaTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,9 +621,9 @@
 				INFOPLIST_FILE = BostaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +639,7 @@
 		};
 		21F209BE29AEA51F0016FA38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9C6775A2FD189D1F412076 /* Pods-BostaTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,9 +650,9 @@
 				INFOPLIST_FILE = BostaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
